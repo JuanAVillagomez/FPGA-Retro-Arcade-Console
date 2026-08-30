@@ -9,7 +9,7 @@ A fully custom hardware and firmware implementation of a retro arcade game engin
 This project bridges bare-metal hardware design with digital logic synthesis, entirely bypassing traditional microcontrollers in favor of hardware description logic.
 
 ### 1. Hardware Design (KiCad)
-The motherboard is a custom 2-layer PCB designed to route high-speed digital signals and manage power delivery safely.
+The motherboard is a custom 4-layer PCB designed to route high-speed digital signals and manage power delivery safely.
 * **VGA DAC:** Engineered a discrete 0805 resistor network to convert 12-bit digital color signals (4 bits per channel for Red, Green, and Blue) into standard 0-0.7V analog VGA signals.
 * **Power Isolation Network:** Designed a physical jumper block "drawbridge" system to safely isolate the 5V USB logic power running the FPGA from the external DC barrel jack powering the 3.3V peripheral voltage regulator.
 * **NES Controller Port:** Routed standard 5-wire shift register interface (VCC, GND, Latch, Clock, Data) to communicate with an external gamepad.
