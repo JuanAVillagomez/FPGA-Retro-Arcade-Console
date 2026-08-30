@@ -28,4 +28,3 @@ A significant portion of this project involved bridging the gap between digital 
 * **Ground Loop Elimination:** Initial breadboard prototyping resulted in severe video artifacting. Moving to a custom 4-layer PCB with dedicated internal copper planes completely stabilized the 31.5 kHz sync signals.
 * **Software-Defined Trace Corrections:** During manufacturing, the physical PCB trace routes for H-Sync and V-Sync were swapped. Instead of cutting copper traces and soldering bodge wires, the error was instantly corrected by swapping the `PACKAGE_PIN` assignments in the Vivado `.xdc` constraints file, demonstrating the rapid iteration power of FPGAs.
 
-*(Drag and drop your gameplay GIF/video here!)*
