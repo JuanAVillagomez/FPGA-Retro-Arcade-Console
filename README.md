@@ -14,7 +14,7 @@ This project bridges bare-metal hardware design with digital logic synthesis, en
 The motherboard is a custom 4-layer mixed-signal PCB designed to route high-speed digital signals and manage power delivery safely via dedicated internal power and ground planes.
 * **VGA DAC:** Engineered a discrete 0805 resistor network to convert 12-bit digital color signals into standard 0-0.7V analog VGA signals.
 * **Power Isolation Network:** Designed a physical jumper block "drawbridge" system to safely isolate the 5V USB logic power running the FPGA from the external DC barrel jack powering the 3.3V peripheral voltage regulator.
-* **NES Controller Port:** Routed standard 5-wire shift register interface (VCC, GND, Latch, Clock, Data) to communicate with an external gamepad.
+* **NES Controller Port:** Routed standard 7-wire shift register interface (VCC, GND, Latch, Clock, Data, N/A Data, N/A Data) to communicate with an external gamepad.
 
 ### 2. Digital Logic & Firmware (Verilog / Vivado)
 The entire game engine and display driver are synthesized in Verilog using Xilinx Vivado.
