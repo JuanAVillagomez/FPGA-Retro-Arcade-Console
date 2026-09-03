@@ -2,8 +2,9 @@
 
 A fully custom hardware and firmware implementation of a retro arcade game engine built from scratch. This project interfaces a Digilent Cmod A7 FPGA with a custom-designed printed circuit board (PCB) featuring a resistor-based VGA Digital-to-Analog Converter (DAC), isolated power delivery, and NES controller input logic.
 
-<img width="481" height="640" alt="89aea4b1-b6ab-4511-b4f0-25b9ae91d7f3" src="https://github.com/user-attachments/assets/f8a862c1-48e4-4ab7-865a-2b7b5f3d82eb" />
-<img width="481" height="640" alt="35d45285-8b08-43f5-9a10-02a3a54dc115" src="https://github.com/user-attachments/assets/b9e1f08e-36ac-4537-aa15-29ba16ef0d12" />
+
+<img width="640" height="481" alt="Retro_Arcade_PCB Monitor" src="https://github.com/user-attachments/assets/010b4ac3-1f1b-4269-81cb-72cf0e323c24" />
+<img width="640" height="481" alt="Retro_Arcade_PCB withController" src="https://github.com/user-attachments/assets/61af0048-107f-4f6e-9c8f-781d18e64e5b" />
 
 
 ## System Architecture
